@@ -1,3 +1,38 @@
 #answer {
   display: none;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  letter-spacing: 10px;
+  font-weight: bolder;
+  color: #FFF;
+}
+
+.lead {
+  letter-spacing: 2px;
+  font-weight: bolder;
+  color: #FFF;
+}
+
+.jumbotron {
+  background-image: url("http://www.drodd.com/images15/numbers4.jpg");
+  background-size: cover;
+
+}
+
+.btn-cust {
+  letter-spacing: 1px;
+  color: #e6fff9;
+  background-color: #00b386;
+  border-style: solid;
+  border-color: #004d39;
+}
+
+.btn-cust:hover {
+  letter-spacing: 1px;
+  color: #00b386;
+  background: #e6fff9;
+  border-style: solid;
+  border-color: #004d39;
 }

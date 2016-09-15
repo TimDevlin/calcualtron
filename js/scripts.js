@@ -25,6 +25,7 @@ $(function() {
     var number2 = parseInt($("#add2").val());
     var result = add(number1, number2);
     $("#output").text(result);
+    $("#answer").show();
   });
 
   $("form#subtract").submit(function(event) {
@@ -33,6 +34,7 @@ $(function() {
     var number2 = parseInt($("#subtract2").val());
     var result = subtract(number1, number2);
     $("#output").text(result);
+    $("#answer").show();
   });
 
   $("form#multiply").submit(function(event) {
@@ -41,6 +43,7 @@ $(function() {
     var number2 = parseInt($("#multiply2").val());
     var result = multiply(number1, number2);
     $("#output").text(result);
+    $("#answer").show();
   });
 
   $("form#divide").submit(function(event) {
@@ -49,8 +52,10 @@ $(function() {
     var number2 = parseInt($("#divide2").val());
     var result = divide(number1, number2);
     $("#output").text(result);
+    $("#answer").show();
   });
 
-  $("#answer").show();
+
+
 
 });

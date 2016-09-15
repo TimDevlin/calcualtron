@@ -10,57 +10,74 @@
   </head>
   <body>
     <div class="container">
+      <div class="jumbotron text-center">
+        <h1>CALCULA-BEAST!</h1>
+        <p class="lead">Tim and Rachel's Robot Calculator of Doom!<p>
+      </div>
 
-      <h1>CALCULA-TRON!</h1>
-      <form id="add">
-        <div class="form-group">
-          <label for="add1">Number 1:</label>
-          <input id="add1" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="add2">Number 2:</label>
-          <input id="add2" class="form-control" type="text">
-        </div>
-        <button type="submit" class="btn">Add!</button>
-      </form>
+      <div class="row">
 
-      <form id="subtract">
-        <div class="form-group">
-          <label for="subtract1">Number 1:</label>
-          <input id="subtract1" class="form-control" type="text">
+        <div class="col-md-3">
+          <form id="add">
+            <div class="form-group">
+              <label for="add1">Number 1:</label>
+              <input id="add1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="add2">Number 2:</label>
+              <input id="add2" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn btn-cust">Add!</button>
+          </form>
         </div>
-        <div class="form-group">
-          <label for="subtract2">Number 2:</label>
-          <input id="subtract2" class="form-control" type="text">
-        </div>
-        <button type="submit" class="btn">Subtract!</button>
-      </form>
 
-      <form id="divide">
-        <div class="form-group">
-          <label for="divide1">Number 1:</label>
-          <input id="divide1" class="form-control" type="text">
+        <div class="col-md-3">
+          <form id="subtract">
+            <div class="form-group">
+              <label for="subtract1">Number 1:</label>
+              <input id="subtract1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="subtract2">Number 2:</label>
+              <input id="subtract2" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn btn-cust">Subtract!</button>
+          </form>
         </div>
-        <div class="form-group">
-          <label for="divide2">Number 2:</label>
-          <input id="divide2" class="form-control" type="text">
-        </div>
-        <button type="submit" class="btn">Divide!</button>
-      </form>
 
-      <form id="multiply">
-        <div class="form-group">
-          <label for="multiply1">Number 1:</label>
-          <input id="multiply1" class="form-control" type="text">
+        <div class="col-md-3">
+          <form id="divide">
+            <div class="form-group">
+              <label for="divide1">Number 1:</label>
+              <input id="divide1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="divide2">Number 2:</label>
+              <input id="divide2" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn btn-cust">Divide!</button>
+          </form>
         </div>
-        <div class="form-group">
-          <label for="multiply2">Number 2:</label>
-          <input id="multiply2" class="form-control" type="text">
+
+        <div class="col-md-3">
+          <form id="multiply">
+            <div class="form-group">
+              <label for="multiply1">Number 1:</label>
+              <input id="multiply1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="multiply2">Number 2:</label>
+              <input id="multiply2" class="form-control" type="text">
+            </div>
+            <button type="submit" class="btn btn-cust">Multiply!</button>
+          </form>
         </div>
-        <button type="submit" class="btn">Multiply!</button>
-      </form>
+
+      </div>
+
+
       <div id="answer">
-        <h2>Here is your answer:</h2><br>
+        <h2>Here is your answer:</h2>
           <h3><span id="output"></h3>
       </div>
 
